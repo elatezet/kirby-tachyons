@@ -2,19 +2,20 @@ Title: Home
 
 ----
 
-Intro: Yay! If you are seeing this, the installation of Kirby worked. :-)
+Intro: 
+
+## Gute Innenarchitektur
+
+Gute Innenarchitektur kann sowohl eine harmonische Verschmelzung mit der Architektur bedeuten als auch das Schaffen eines Erscheinungsbildes, welches den Bauherren die gewünschte Atmosphäre fühlen lässt. Diese Atmosphäre entsteht aus der Gliederung der Bauelemente, deren Proportionen, Materialien und Farben.
 
 ----
 
 Text: 
 
-## Get started
+So ist die Lage und Optik von Innentüren ein wichtiger Bestandteil einer geforderten Raumwahrnehmung. Neben der Funktionalität nehmen Türen einen wichtigen Stellenwert in der Ästhetik ein. Neben den unterschiedlichen Stilrichtungen sind bei einer gewollt zurück haltenden Bauweise die Ausführungsdetails und deren Qualität sehr wichtig; weiß farbige Türen lassen sich geradezu recht unscheinbar in einer Wandfläche integrieren, so dass eine Flächigkeit in der Wand entsteht, die den Raum ruhiger erscheinen lässt.
 
-- Go to the (link: panel text: Panel) to give Kirby's admin interface a try
-- Check out the (link: http://getkirby.com/docs text: docs) and start building your own site
-- Follow (twitter: @getkirby) on Twitter for updates
-- Visit the (link: http://forum.getkirby.com text: forum) to connect with other Kirby users
-- Sign up to (link: https://getkirby.com/#kosmos text: Kirby Kosmos), our monthly newsletter
-- (link: http://getkirby.com/support text: Get in contact) if you need support.
+Cornelia Lauscher-Fork, Dipl.-Ing. Innenarchitektur, BDIA
 
-**Have fun with Kirby!**
+Büro für Innenarchitektur und Kunst
+
+Münster, [www.lauscher-fork.de](http://www.lauscher-fork.de/)
