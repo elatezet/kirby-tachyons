@@ -13,14 +13,59 @@ body, html {
     -webkit-font-smoothing: antialiased;
     letter-spacing: 0.0125rem;
     font-size: 20px;
-    
 }
 
-h1, h2, h3 {
+h1, h2 {
+    font-size: 72px;
+}
+
+h3, h4 {    
+    font-size: 20px;
+}
+
+h1, h2, h3, .bold {
+    margin: 0;
     font-family: "HKGrotesk-Bold", sans-serif; font-weight: normal;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.0175rem;
+}
+
+*:focus {
+    outline: none !important;
+}
+main p > a {
+    transition: all 0.5s;
+    text-decoration: none;
+    border-bottom: 1px solid silver;
+}
+main p > a, 
+main p > a:visited {
+    color:#151515;
+}
+
+main p > a:hover {
+    border-bottom: 1px solid black;
 }
 
 .is-active {
-    border-bottom: 1px solid;
+    border-bottom: 1px solid silver;
+}
+
+.line-parent {
+    pointer-events: none; 
+}
+
+
+img.line {
+    transition: all 1s;
+}
+img.line:hover {
+    opacity:0;
+}
+
+.arrows {
+    transform: scale(1,1.65) !important;
+}
+
+figure {
+    margin: 0 -40px;
 }

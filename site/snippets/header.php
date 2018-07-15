@@ -14,12 +14,12 @@
 
 </head>
 <body class="bg-near-white near-black">
-
-  <header role="banner" class="fl w-100">
+<div class="mw8 center">
+  <header role="banner" class="fl w-100 flex items-end pb5">
 
       <div class="fl w-50 pa3">
         <a class="link" href="<?=url()?>" alt="<?=$site->title()->html()?>" rel="home">
-        <img src="assets/images/logo.svg"/>
+        <img src="<?= kirby()->urls()->assets() ?>/images/logo.svg"/>
       </a>
       </div>
 
@@ -29,4 +29,3 @@
 
   </header>
 
-<?php snippet('line') ?>

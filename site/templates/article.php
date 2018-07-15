@@ -14,7 +14,7 @@
       
       <?php snippet('coverimage', $page) ?>
       
-      <div class="">
+      <div class="lh-copy">
         <?= $page->text()->kirbytext() ?>
       </div>
       

@@ -4,22 +4,22 @@
     
     <header class="">
       <h1><?= $page->title()->html() ?></h1>
-      <div class="">
+      <div class="lh-copy bold">
         <?= $page->intro()->kirbytext() ?>
       </div>
-      <hr />
+      
     </header>
 
-    <div class="">
+    <div class="lh-copy">
       <?= $page->text()->kirbytext() ?>
     </div>
   
     <section class="">
       
       <div class="">
-        <h2>Latest Projects</h2>
+        <h2>Projekte</h2>
         <?php snippet('showcase', ['limit' => 3]) ?>
-        <p class="projects-section-more"><a href="<?= page('projects')->url() ?>" class="btn">show all projects &hellip;</a></p>
+        <p class="lh-copy"><a href="<?= page('projects')->url() ?>" class="btn">show all projects &hellip;</a></p>
       </div>
       
     </section>

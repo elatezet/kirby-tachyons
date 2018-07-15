@@ -1,5 +1,5 @@
 <?php if($image = $item->coverimage()->toFile()): ?>
-  <figure>
+  <figure class="pa4">
     <img src="<?= $image->url() ?>" alt="" />
   </figure>
 <?php endif ?>

@@ -24,7 +24,7 @@
                 <?= $item->text()->html() ?>
               </p>
             </div>
-            <p class="">
+            <p class="lh-copy">
               <a href="<?= $item->url()->html() ?>" class="contact-action btn"><?= $item->linktext()->html() ?></a>
             </p>
           </li>

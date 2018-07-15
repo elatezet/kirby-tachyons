@@ -20,12 +20,12 @@ if(isset($limit)) $projects = $projects->limit($limit);
 
 ?>
 
-<ul class="list">
+<ul class="list" style="">
 
   <?php foreach($projects as $project): ?>
 
     <li class="">
-        <a href="<?= $project->url() ?>" class="">
+        <a href="<?= $project->url() ?>" class="near-black link">
           <?php if($image = $project->images()->sortBy('sort', 'asc')->first()): $thumb = $image->crop(600, 600); ?>
             <img src="<?= $thumb->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>" class="" />
           <?php endif ?>

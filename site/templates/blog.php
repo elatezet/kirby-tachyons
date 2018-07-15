@@ -12,7 +12,7 @@
       // https://getkirby.com/docs/developer-guide/advanced/controllers
       if($pagination->page() == 1):
       ?>
-        <div class="intro text">
+        <div class="lh-copy">
           <?= $page->text()->kirbytext() ?>
         </div>
       <?php endif ?>
@@ -36,10 +36,10 @@
 
             <?php snippet('coverimage', $article) ?>
 
-            <div class="">
+            <div class="lh-copy">
               <p>
                 <?= $article->text()->kirbytext()->excerpt(50, 'words') ?>
-                <a href="<?= $article->url() ?>" class="article-more">read more</a>
+                <a href="<?= $article->url() ?>" class="article-more">Weiterlesen</a>
               </p>
             </div>
 
