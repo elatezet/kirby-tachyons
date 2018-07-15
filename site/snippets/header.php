@@ -8,19 +8,18 @@
   <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
   <meta name="description" content="<?= $site->description()->html() ?>">
 
-  <?= css('assets/css/index.css') ?>
+  <?= css('assets/css/tachyons.css') ?>
+  <?= css('assets/css/lauscher.css') ?>
 
 </head>
-<body>
+<body class="bg-near-white sans-serif dark-gray">
 
-  <header class="header wrap wide" role="banner">
-    <div class="grid">
-
-      <div class="branding column">
-        <a href="<?= url() ?>" rel="home"><?= $site->title()->html() ?></a>
+  <header role="banner" class="fl w-100">
+    
+      <div class="fl w-25">
+        <a class="dark-gray link" href="<?= url() ?>" rel="home"><?= $site->title()->html() ?></a>
       </div>
 
       <?php snippet('menu') ?>
 
-    </div>
   </header>

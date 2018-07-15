@@ -1,8 +1,8 @@
-<nav class="navigation column" role="navigation">
-  <ul class="menu">
+<nav class="fl w-75" role="navigation">
+  <ul class="list fr">
     <?php foreach($pages->visible() as $item): ?>
-    <li class="menu-item<?= r($item->isOpen(), ' is-active') ?>">
-      <a href="<?= $item->url() ?>"><?= $item->title()->html() ?></a>
+    <li class="fl pr3">
+      <a class="dark-gray link <?= r($item->isOpen(), ' is-active') ?>" href="<?= $item->url() ?>"><?= $item->title()->html() ?></a>
     </li>
     <?php endforeach ?>
   </ul>
