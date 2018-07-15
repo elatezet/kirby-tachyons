@@ -1,8 +1,8 @@
 <?php snippet('header') ?>
 
-  <main class="main" role="main">
+  <main class="pa3" role="main">
 
-    <header class="wrap">
+    <header class="">
       <h1><?= $page->title()->html() ?></h1>
 
       <?php
@@ -20,23 +20,23 @@
       <hr />
     </header>
 
-    <section class="wrap">
+    <section class="">
       <?php if($articles->count()): ?>
         <?php foreach($articles as $article): ?>
 
-          <article class="article index">
+          <article class="">
 
-            <header class="article-header">
-              <h2 class="article-title">
+            <header class="">
+              <h2 class="">
                 <a href="<?= $article->url() ?>"><?= $article->title()->html() ?></a>
               </h2>
 
-              <p class="article-date"><?= $article->date('F jS, Y') ?></p>
+              <p class=""><?= $article->date('F jS, Y') ?></p>
             </header>
 
             <?php snippet('coverimage', $article) ?>
 
-            <div class="text">
+            <div class="">
               <p>
                 <?= $article->text()->kirbytext()->excerpt(50, 'words') ?>
                 <a href="<?= $article->url() ?>" class="article-more">read more</a>

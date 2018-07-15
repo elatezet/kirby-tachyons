@@ -1,10 +1,10 @@
 <?php snippet('header') ?>
 
-  <main class="main" role="main">
+  <main class="pa3" role="main">
     
-    <article class="article single wrap">
+    <article class="">
 
-      <header class="article-header">
+      <header class="">
         <h1><?= $page->title()->html() ?></h1>
         <div class="intro text">
           <?= $page->date('F jS, Y') ?>
@@ -14,7 +14,7 @@
       
       <?php snippet('coverimage', $page) ?>
       
-      <div class="text">
+      <div class="">
         <?= $page->text()->kirbytext() ?>
       </div>
       

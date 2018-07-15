@@ -1,30 +1,30 @@
 <?php snippet('header') ?>
 
-  <main class="main" role="main">
+  <main class="pa3" role="main">
     
-    <header class="wrap">
+    <header class="">
       <h1><?= $page->title()->html() ?></h1>      
-      <div class="intro text">
+      <div class="">
         <?= $page->intro()->kirbytext() ?>
       </div>    
       <hr />      
     </header>
     
-    <div class="wrap wide">
+    <div class="">
       <h2>Get in Touch</h2>
       
-      <ul class="contact-options">
+      <ul class="">
         <?php foreach($page->contactoptions()->toStructure() as $item): ?>
           <?php $icon = $page->image($item->icon()); ?>
-          <li class="contact-item column">
-            <div class="contact-item-content">
+          <li class="">
+            <div class="">
               <img src="<?= $icon->url() ?>" width="<?= $icon->width() ?>" alt="<?= $item->title()->html() ?> icon" class="contact-item-icon" />
-              <h3 class="contact-item-title"><?= $item->title()->html() ?></h3>
-              <p class="contact-item-text">
+              <h3 class=""><?= $item->title()->html() ?></h3>
+              <p class="">
                 <?= $item->text()->html() ?>
               </p>
             </div>
-            <p class="contact-item-action">
+            <p class="">
               <a href="<?= $item->url()->html() ?>" class="contact-action btn"><?= $item->linktext()->html() ?></a>
             </p>
           </li>

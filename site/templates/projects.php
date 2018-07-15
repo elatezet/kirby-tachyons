@@ -1,16 +1,16 @@
 <?php snippet('header') ?>
 
-  <main class="main" role="main">
+  <main class="pa3" role="main">
 
-    <header class="wrap">
+    <header class="">
       <h1><?= $page->title()->html() ?></h1>
-      <div class="intro text">
+      <div class="">
         <?= $page->text()->kirbytext() ?>
       </div>
       <hr />
     </header>
       
-    <div class="wrap wide">    
+    <div class="">    
       <?php snippet('showcase') ?>
     </div>
 

@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-  <main class="main" role="main">
+  <main class="pa3" role="main">
 
     <div class="wrap">
       

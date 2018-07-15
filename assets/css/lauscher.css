@@ -1,3 +1,26 @@
+@font-face { font-family: 'HKGrotesk-Light';
+    src: url('../fonts/HKGrotesk-Light.woff2')  format('woff2'),
+         url('../fonts/HKGrotesk-Light.woff')  format('woff'),
+         url('../fonts/HKGrotesk-Light.eot')  format('eot'); 
+        }
+@font-face { font-family: 'HKGrotesk-Bold';
+    src: url('../fonts/HKGrotesk-Bold.woff2')  format('woff2'),
+            url('../fonts/HKGrotesk-Bold.woff')  format('woff'),
+            url('../fonts/HKGrotesk-Bold.eot')  format('eot'); 
+        }
+body, html { 
+    font-family: "HKGrotesk-Light", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 0.0125rem;
+    font-size: 20px;
+    
+}
+
+h1, h2, h3 {
+    font-family: "HKGrotesk-Bold", sans-serif; font-weight: normal;
+    letter-spacing: 0.05rem;
+}
+
 .is-active {
     border-bottom: 1px solid;
 }
