@@ -1,8 +1,8 @@
-Title: Cornelia Lauscher
+Title: Conni Lauscher
 
 ----
 
-Author: Cornelia Lauscher
+Author: Conni Lauscher
 
 ----
 
@@ -10,4 +10,4 @@ Description: Gute Innenarchitektur kann sowohl eine harmonische Verschmelzung mi
 
 ----
 
-Copyright: © 2018–(date: Year) (link: http://connilauscher.de text: connilauscher.de)
+Copyright: © (date: Year) (link: http://connilauscher.de text: connilauscher.de)

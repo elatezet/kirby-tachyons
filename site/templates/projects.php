@@ -1,19 +1,20 @@
-<?php snippet('header') ?>
+<?php snippet('header')?>
 
-  <main class="pa3" role="main">
+  <main role="main">
 
-    <header class="">
-      <h1><?= $page->title()->html() ?></h1>
-      <div class="">
-        <?= $page->text()->kirbytext() ?>
+    <header class="pa3">
+      <h1><?=$page->title()->html()?></h1>
+      <div class="f3 lh-heading">
+        <?=$page->intro()->kirbytext()?>
       </div>
-      <hr />
     </header>
-      
-    <div class="">    
-      <?php snippet('showcase') ?>
+
+    <div class="lh-copy ph3 pb3">
+      <?=$page->text()->kirbytext()?>
     </div>
 
   </main>
-
-<?php snippet('footer') ?>
+<div class="w-100 pl3">
+  <?php snippet('showcase')?>
+  </div>
+<?php snippet('footer')?>

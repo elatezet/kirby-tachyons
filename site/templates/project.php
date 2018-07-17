@@ -3,10 +3,11 @@
   <main class="pa3" role="main">
     
     <header class="">
-      <h1><?= $page->title()->html() ?></h1>
-      <div class="lh-copy">
+    <div class="lh-copy pb2">
         <?= $page->year() ?>
-      </div>
+    </div>
+    <h1><?= $page->title()->html() ?></h1>
+
       
     </header>
     

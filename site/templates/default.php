@@ -10,7 +10,7 @@
       <hr />
     </header>
       
-    <div class="">
+    <div class="lh-copy">
       <?= $page->text()->kirbytext() ?>
     </div>
 

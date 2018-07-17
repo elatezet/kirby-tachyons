@@ -4,14 +4,13 @@
     
     <header class="">
       <h1><?= $page->title()->html() ?></h1>      
-      <div class="">
+      <div class="pv4 f3 lh-heading">
         <?= $page->intro()->kirbytext() ?>
       </div>    
       <hr />      
     </header>
     
-    <div class="">
-      <h2>Get in Touch</h2>
+
       
       <ul class="">
         <?php foreach($page->contactoptions()->toStructure() as $item): ?>
@@ -30,9 +29,9 @@
           </li>
         <?php endforeach ?>
       </ul>
-    </div>
+
       
-    <div class="contact-twitter text wrap cf">
+    <div class="lh-copy">
       <?= $page->text()->kirbytext() ?>
     </div>
     

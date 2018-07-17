@@ -1,12 +1,8 @@
-Title: Home
+Title: Gute Innenarchitektur
 
 ----
 
-Intro: 
-
-## Gute Innenarchitektur
-
-Gute Innenarchitektur kann sowohl eine harmonische Verschmelzung mit der Architektur bedeuten als auch das Schaffen eines Erscheinungsbildes, welches den Bauherren die gewünschte Atmosphäre fühlen lässt. Diese Atmosphäre entsteht aus der Gliederung der Bauelemente, deren Proportionen, Materialien und Farben.
+Intro: Gute Innenarchitektur kann sowohl eine harmonische Verschmelzung mit der Architektur bedeuten als auch das Schaffen eines Erscheinungsbildes, welches den Bauherren die gewünschte Atmosphäre fühlen lässt. Diese Atmosphäre entsteht aus der Gliederung der Bauelemente, deren Proportionen, Materialien und Farben.
 
 ----
 

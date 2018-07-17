@@ -4,7 +4,7 @@
     
     <header class="">
       <h1><?= $page->title()->html() ?></h1>
-      <div class="lh-copy bold">
+      <div class="f3 lh-lead pb3">
         <?= $page->intro()->kirbytext() ?>
       </div>
       
@@ -16,10 +16,17 @@
   
     <section class="">
       
-      <div class="">
-        <h2>Projekte</h2>
-        <?php snippet('showcase', ['limit' => 3]) ?>
-        <p class="lh-copy"><a href="<?= page('projects')->url() ?>" class="btn">show all projects &hellip;</a></p>
+      <div class="pv4 w-100">
+        <h3 class="f3 pb3">Meine letzten Projekte</h3>
+        
+ 
+          <?php snippet('showcase', ['limit' => 3]) ?>
+
+
+        <div class="w-100">
+        <p class="lh-copy mt4"><a href="<?= page('projects')->url() ?>" class="btn">Alle Projekte ansehen</a> <small> ↗ </small>  </p>
+        </div>
+        
       </div>
       
     </section>
