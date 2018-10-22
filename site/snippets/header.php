@@ -21,7 +21,7 @@
 
       <div class="fl w-50">
         <a class="link" href="<?=url()?>" alt="<?=$site->title()->html()?>" rel="home">
-        <img class="pt5 ph3 o-90" src="<?= kirby()->urls()->assets() ?>/images/logo.svg"/>
+        <img class="pt5 ph3 o-90 mw5" src="<?= kirby()->urls()->assets() ?>/images/logo.svg"/>
       </a>
       </div>
 
